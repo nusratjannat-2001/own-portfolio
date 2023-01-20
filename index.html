@@ -1,111 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <!--font awesome cdn from w3school-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans:ital@1&family=Kurale&family=Montserrat&family=Nunito:ital,wght@0,200;0,300;1,200&family=Roboto:wght@100&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
 
- <div class="container">
-    <header>
-        <h1 class="vitae" align="center">CURRICULUM VITAE  </h1>
-        <img class="image" src="Screenshot_1.png">
-        <div class="header-bio">
-            <h1>
-                Nusrat Jannat
-            </h1>
-
-            <h3>
-                <i>Software Engineer</i> 
-            </h3>
-        </div>
-    <div class="header-contact">
-    <p><a href="#">Email : nusratjannat2001@gmail.com</a></p>
-    <p><a href="#">Github : github.com/nusratjannat-2001</a></p>
-    <p><a href="tel:">Phone : 01301399663</a></p>
+    <!--for mobile screen-->
+    <link rel="stylesheet" href="style.css" />
+    <!--for desktop screen-->
+    <link
+      rel="stylesheet"
+      href="desktop.css"
+      media="screen and (min-width:992px"
+      )
+    />
+  </head>
+  <body>
+    <!-- navbar starts here-->
+    <div class="navbar">
+      <div class="nav-logo col-2">
+        <img src="images/logo.png" alt="logo" class="src" />
+      </div>
+      <div class="nav-heading col-4">
+        <h1>Nusrat Jannat</h1>
+      </div>
+      <div class="navbar-menu col-6">
+        <a href="#">Home</a>
+        <a href="#about-me-id">About Me</a>
+        <a href="#skill-id">Skill</a>
+        <a href="#contact-id">contact Me</a>
+      </div>
     </div>
-    </header>
-    <div class="div-clear"></div>
-    <hr >
-    <main>
-        <h4>Profile</h4>
-        <p>Highly motivated CSE graduate with a strong foundation in software engineering and programming principles.Proficient<br>in a  variety of platforms,languages and embedded systems,with an innate ability to learn and master new technologies.</p>
-        <hr class="line">
-        <h4>Educational Qualification</h4>
-      <table border="2">
-<tr>
-    <th>Examination</th>
-    <th>Board/University</th>
-    <th>Passing Year</th>
-    <th>GPA/CGPA</th>
-</tr>
-<tr>
-    <td>SSC</td>
-    <td>Jessore Board</td>
-    <td>2017</td>
-    <td>GPA:5.00</td>
-</tr>
-<tr>
-    <td>HSC</td>
-    <td>Jessore Board</td>
-    <td>2019</td>
-    <td>GPA:5.00</td>
-</tr>
-<tr>
-    <td>BSc in engineering</td>
-    <td>University of Rajshahi</td>
-    <td>2024</td>
-    <td>CGPA:3.50</td>
-</tr>
-<tr>
-    <td>MSc in engineering</td>
-    <td>University of Rajshahi</td>
-    <td>2026</td>
-    <td>CGPA:3.45</td>
-</tr>
-      </table>
-      <hr class="line">
-        <h4>Work Experience</h4>
-        <p>August 2027-December 2029<br>Software Intern<br>Company ABC-Dhaka,Bangladesh.</p>
-       <hr class="line">
-        <h4>Languages</h4>
-        <ol>
-        <li>Bangla</li>
-        <li>English</li>
-        <li>Hindi</li>
-        <li>Arabic</li>
-    </ol>
-        
-        <hr class="line">
-        <h4>Skills & Expertise</h4>
-        <ol>
-            <li>Coding</li>
-            <li>Java</li>
-            <li>SQL</li>
-            <li>Javascript</li>
-            <li>Bootstrap</li>
-        </ol>
-        <hr class="line">
-        <h4>Hobbies</h4>
-        <ol>
-            <li>Gardening</li>
-            <li>Travelling</li>
-            <li>Cooking</li>
-            <li>Reading Books</li>
-            <li>Olaying badminton</li>
-        </ol>
-        <hr class="line">
-    </main>
-    <footer>
-        I declare that the information provided in this form are correct ,true and complete to the best of my knowlegde and belief.If any information found false ,incorrect ,incomplete or if any ineligibility is delected before or after the examiantion,any action can be taken against me by the Authority including cancellation of my candidature.
-    </footer>
- </div>
+    <!-- navbar ends here-->
 
-   
-</body>
+    <!-- profile starts here -->
+    <div class="profile">
+      <img class="top-weather-icon" src="images/weather.png" alt="" />
+      <div class="profile-desc">
+        <h1>
+          I am a student of the department of <br />Computer Science and
+          Engineering<br />&<br />Web Designer
+        </h1>
+        <p>
+          I am Nusrat Jannat.Welcome to my personal portfolio that I've designed
+          to showcase my skills and expertise that I've accumulated over the
+          past years.
+        </p>
+      </div>
+      <img src="images/weather.png" alt="" class="bottom-weather-icon" />
+    </div>
+    <!-- profile ends here -->
+
+    <!-- about me starts here -->
+    <div class="about-me" id="about-me-id">
+      <h2>ABOUT ME</h2>
+      <hr class="dotted-hr" />
+      <div class="aboutme-image col-6">
+        <img src="images/profile.jpg" alt="" />
+      </div>
+      <div class="aboutme-desc col-6">
+        <p>I would like to call myself a passionate web designer</p>
+        <hr class="aboutme-hr" />
+        <p>Name:Nusrat Jannat</p>
+        <hr class="aboutme-hr" />
+        <p>
+          Email:<a href="nusratjannat2001@gmail.com"
+            >nusratjannat2001@gmail.com</a
+          >
+        </p>
+        <hr class="aboutme-hr" />
+        <p>Phone:<a href="tel:+02388467">+02388467</a></p>
+        <hr class="aboutme-hr" />
+        <p>
+          Website:<a href="http://www.learningwitheasha.com" target="blank"
+            >www.learingwitheasha.com</a
+          >
+        </p>
+        <hr class="aboutme-hr" />
+        <p>
+          <a
+            href="https://nusratjannat-2001.github.io/nusratjannat-2001/"
+            target="blank"
+            download=""
+          >
+            <button class="cv-button">Download CV</button>
+          </a>
+        </p>
+      </div>
+    </div>
+    <!-- about me ends here -->
+
+    <!-- professional experince starts here -->
+    <div class="professional-experience">
+      <div class="work-experience col-4">
+        <div class="card">
+          <div class="card-icon">
+            <img class="rounded-img" src="images/work.jpg" alt="" />
+          </div>
+
+          <div class="card-title">
+            <h2>WORK EXPERIENCE</h2>
+          </div>
+          <div class="card-desc">
+            <ol>
+              <li>
+                <strong>Web Designer</strong>
+                In online platform,<br />
+             Having git account on Fiverr & Upwork <br />
+              </li>
+              <hr />
+              <li>
+                <strong>Web Developer</strong>
+                In online platform,<br />
+                Having git account on Fiverr & Upwork<br />
+              </li>
+              <hr />
+              <li>
+                <strong>Software Engineer</strong>
+                In ABC Company,Rajshahi<br />
+              From 2024-2026<br />
+              </li>
+              <hr />
+              <li>
+                <strong>Lecturer </strong>
+                In University of Rajshahi<br />
+               From 2027-going on<br />
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="education col-4">
+            
+        <div class="card">
+            <div class="card-icon">
+                <img class="rounded-img" src="images/book.jpg" alt="work icon">
+            </div>
+            <div class="card-title">
+                <h2>EDUCATION AND TRAINING</h2>
+            </div>
+
+            <div class="card-desc">
+                <ol>
+                    <li>
+                        <strong>M.Sc. in Software Development</strong> <br>
+                        2024-2026 <br>
+                        From BUET <br>
+              
+                        <a href="https://www.buet.ac.bd/" target="blank">https://www.buet.ac.bd/</a> <br>
+                     </li>
+                     <hr>
+                     <li>
+                        <strong>B.Sc. in Computer Science & Engineering</strong> <br>
+                       2020-2024</br>
+                         University of Rajshahi <br>
+                      <a href="https://www.ru.ac.bd/" target="blank">https://www.ru.ac.bd/</a> <br>
+                        Result: A (3.50/4.00) <br>
+                     </li>
+                     <hr>
+                     <li>
+                        <strong>Professional Diploma in Travel & Tourism Marketing</strong> <br>
+                        2018-2020<br>
+                      
+                        <a href="http://www.lsci.org.uk/" target="blank">http://www.lsci.org.uk/</a> <br>
+                        Result: Merit <br>
+                     </li>
+                </ol>
+            </div>
+    </div>
+  </div>
+     
+  <div class="skills col-4" id="skill-id">
+    <div class="card">
+        <div class="card-icon">
+            <img class="rounded-img" src="images/skill.jpg" alt="work icon">
+        </div>
+        <div class="card-title">
+            <h2>SKILLS</h2>
+        </div>
+
+        <div class="card-desc">
+            <div class="skills-container">
+                <ul>
+                    <li class="html" >HTML</li>
+                    <li class="css">CSS</li>
+                    <li class="bootstrap">Bootstrap</li>
+                    <li class="js">JavaSCript</li>
+                    <li class="jquery">JQuery</li>                           
+                    <li class="node">Node.js</li>
+                    <li class="express">Express.js</li>
+                    <li class="git">GitHub</li>
+                    <li class="react">React.js</li> 
+                </ul>
+            </div>
+        </div>
+</div>
+</div>
+</div>
+<!-- professional experience ends here  -->
+ <!-- achievement-contact starts from here  -->
+
+ <div class="achievemnet-contact">
+  <div class="achievement col-4">
+      <h2>ACHIEVEMENTS</h2>
+      <hr class="dotted-hr">
+      <p>1. 100% Tuition Waiver: Based on excellent academic result in  University of Rajshahi, Finland</p>
+      <p>2. Public Bank Scholarship: 40,000 TK, For scoring GPA 3.50/4.00 in B.Sc.</p>
+      <p>3. Silver Button from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
+      <p>4. IELTS 7 (Speaking-8.5, Listening-8, Writing-6, Reading-6) </p>
+
+  </div>
+  <div class="contact col-4" id="contact-id">
+      <h2>CONTACT ME</h2>
+      <hr class="dotted-hr">
+
+      <form action="mailto:anisul2010s@yahoo.co.uk" method="post" enctype="text/plain">
+          <p><input type="text" placeholder="Your Name" name="name"></p>
+          <p><input type="email" placeholder="Your Email" name="email"></p>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message Here"></textarea>
+          <button type="submit">SEND</button>
+          <button type="reset">RESET</button>
+      </form>
+  </div>
+
+  <div class="contact-links col-4">
+      <h2>More ways to Contact</h2>
+      <hr class="dotted-hr">
+      <div class="media-buttons">
+          <button class="btn" onclick="window.open('http://www.youtube.com/c/anisulislamrubel')" class="request-callback"><i class="fa fa-youtube-play" style="color: #c4302b;" aria-hidden="true"></i></button>
+          <button class="btn" onclick="window.open('https://www.facebook.com/studywithanis')" class="btn request-callback"><i class="fa fa-facebook" style="color:  #3b5998;" aria-hidden="true"></i></button>
+          <button class="btn" onclick="window.open('http://www.studywithanis.com/')" class="btn request-callback"> <span style="font-size: 1.7rem;">&#127760;</span> </i></button>
+          <button class="btn" onclick="window.open('http://www.youtube.com/c/anisulislamrubel')" class="btn request-callback"><i class="fa fa-skype" style="color:  #3b5998;" aria-hidden="true"></i></button>
+          <button class="btn" onclick="window.open('https://www.linkedin.com/in/anisul-islam-515a7714a/')" class="btn request-callback"><i class="fa fa-linkedin" style="color:  #3b5998;" aria-hidden="true"></i></button>
+          <button class="btn" onclick="window.open('https:github.com/nusratjannat-2001')" class="btn request-callback"><i class="fa fa-github" aria-hidden="true" style="color: #000000;"></i></button>
+      </div>
+  </div>
+</div>
+
+<!-- achievement-contact ends here  -->
+<!-- footer starts from here  -->
+
+<div class="footer">
+  <div class="footer-menu col-6">
+      <a href="#">Home</a>
+      <a href="#about-me-id">About Me</a>
+      <a href="#skill-id">Skill</a>
+      <a href="#contact-id">Contact Me</a>
+  </div>
+
+  <div class="footer-desc col-6">
+      &copy; Nusrat 2020. Developed with <span style="color: red; font-size: 1.5rem;">❤</span> by Nusrat.
+  </div>
+</div>
+<!-- footer ends here  -->
+
+  </body>
 </html>
